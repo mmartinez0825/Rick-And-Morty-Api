@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      text-align: center;
+      background-color: green;
+      color: white;
+      font-size: x-large;
+    }
+  </style>
+  <body>
+    <label for="Character">Select Character:</label>
+    <select name="Character" id="DropDown">
+      <option>Characters</option>
+    </select>
+    <button id="Search" onclick="FilterData()">Search</button>
+    <table id="Table">
+      <tr>
+        <p id="api data"></p>
+      </tr>
+    </table>
+    <script src="animefetch.js"></script>
+  </body>
+</html>
